@@ -2,16 +2,6 @@
 
 Cada sección indica los comandos a ejecutar en la VM (Bash), qué debe verse en la captura y el nombre exacto con el que se guarda la imagen en `evidencias/`.
 
-**Consejos para las capturas**
-
-- Ejecuta `clear` antes de cada bloque para que la captura muestre solo lo necesario.
-- Ejecuta todo el bloque y captura una sola vez la terminal completa.
-- Guarda las imágenes con el nombre indicado (en minúsculas y sin espacios), porque este archivo las enlaza por nombre.
-
-**Estado de partida esperado:** FRR corriendo con `ospfd=no`, la ruta `blackhole` guardada y sin `dummy0` (desapareció con el reinicio). Los comandos de abajo están ordenados para que cada paso deje listo el siguiente.
-
----
-
 ## Lista de verificación
 
 | N.º | Imagen | Ejercicio |
