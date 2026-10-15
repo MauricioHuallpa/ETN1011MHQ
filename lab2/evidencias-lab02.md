@@ -229,14 +229,14 @@ sudo vtysh -c 'show running-config'
 
 ## Limpieza final (sección 9 de la guía)
 
-No es una captura, pero deja el sistema como estaba. No toques `enp0s3` ni la ruta `default`.
+No es una captura, pero deja el sistema como estaba.
 
 ```bash
 sudo sed -i 's/^ospfd=yes/ospfd=no/' /etc/frr/daemons
 sudo systemctl restart frr
 ```
 
-`dummy0` ya no existe tras el reinicio. Si además quieres retirar la ruta de prueba:
+`dummy0` ya no existe tras el reinicio.
 
 ```bash
 sudo vtysh -c 'configure terminal' -c 'no ip route 198.51.100.0/24 blackhole' -c 'end' -c 'write memory'
