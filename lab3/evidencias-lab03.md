@@ -98,13 +98,13 @@ Página: https://bgp.tools/as/396986
 ![AS396986 ByteDance](evidencias/15-bgptools-as396986-tiktok.png)
 
 ### 16. LACNIC RDAP — AS6568
-Página: https://rdap.lacnic.net/rdap/autnum/AS6568
+Página: https://rdap-web.lacnic.net/rdap/autnum/6568
 Debe verse: el número AS, el tipo de asignación y el titular (Empresa Nacional de Telecomunicaciones Sociedad Anónima). Se omite la sección de contactos.
 
 ![RDAP AS6568](evidencias/16-rdap-as6568.png)
 
 ### 17. LACNIC RDAP — AS27882
-Página: https://rdap.lacnic.net/rdap/autnum/AS27882
+Página: https://rdap-web.lacnic.net/rdap/autnum/27882
 Debe verse: el número AS y el titular (Telefónica Celular de Bolivia S.A.). Se omite la sección de contactos.
 
 ![RDAP AS27882](evidencias/17-rdap-as27882.png)
@@ -146,7 +146,7 @@ Debe verse: ASN 15169 y política de peering (Selectivo). Se añade otra captura
 ![PeeringDB Google IXP](evidencias/22b-peeringdb-google-ixp.png)
 
 ### 23. RIPEstat: prefijo 190.129.48.0/20
-Página: https://stat.ripe.net/
+Página: [https://stat.ripe.net/](https://stat.ripe.net/resource/190.129.48.0/20#tab=overview)
 Debe verse: el prefijo, que lo anuncia AS6568, la visibilidad (99.4 % de 320 peers) y la fecha de consulta.
 
 ![RIPEstat](evidencias/23-ripestat-prefijo.png)
@@ -166,16 +166,19 @@ Debe verse: los 5 registros MX de Google con sus preferencias y TTL de 1 hora, p
 ## Parte 5 — CDN
 
 ### 25. BGP.Tools: búsqueda de la IP 190.129.60.166 (www.entel.bo)
+https://bgp.tools/prefix-selector?ip=190.129.60.166
 Debe verse: los prefijos superpuestos `190.129.48.0/20`, `190.129.0.0/17` y `190.129.0.0/16`, todos originados por AS6568.
 
 ![IP Entel](evidencias/25-bgptools-ip-190-129-60-166.png)
 
 ### 26. BGP.Tools: búsqueda de la IP 52.0.229.131 (tigo.com.bo)
+https://bgp.tools/prefix-selector?ip=52.0.229.131
 Debe verse: los prefijos `52.0.0.0/15` (AS14618) y `52.0.0.0/11` (AS16509), ambos con país US.
 
 ![IP Tigo](evidencias/26-bgptools-ip-52-0-229-131.png)
 
 ### 27. BGP.Tools: IP de www.lacascada.com.bo
+https://bgp.tools/prefix-selector?ip=104.21.28.182
 Debe verse: la búsqueda de `104.21.28.182` (prefijos `104.21.0.0/19` y `104.21.16.0/20`, AS13335) o la ficha del prefijo `172.67.144.0/20` (originado por AS13335, Cloudflare, Inc.).
 
 ![Prefijo Cloudflare](evidencias/27-bgptools-prefijo-cloudflare.png)
