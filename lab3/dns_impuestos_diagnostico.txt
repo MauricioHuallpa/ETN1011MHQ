@@ -1,0 +1,28 @@
+Wed Nov 11 01:07:49 AM UTC 2026
+== impuestos.bo A (resolvedor local) ==
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 64403
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; AUTHORITY SECTION:
+bo.			844	IN	SOA	ns.nic.bo. soporte.nic.bo. 2026111075 900 450 18144007 900
+
+== impuestos.bo A (1.1.1.1) ==
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NXDOMAIN, id: 48492
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; AUTHORITY SECTION:
+bo.			900	IN	SOA	ns.nic.bo. soporte.nic.bo. 2026111075 900 450 18144007 900
+
+== impuestos.gob.bo A ==
+impuestos.gob.bo.	300	IN	A	170.82.244.41
+== impuestos.gob.bo NS ==
+impuestos.gob.bo.	86400	IN	NS	kami.ns.cloudflare.com.
+impuestos.gob.bo.	86400	IN	NS	logan.ns.cloudflare.com.
+== impuestos.gob.bo MX ==
+impuestos.gob.bo.	86400	IN	MX	10 antispam22.weblinksrl.com.

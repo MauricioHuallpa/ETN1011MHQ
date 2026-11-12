@@ -1,0 +1,9 @@
+Wed Nov 11 01:12:54 AM UTC 2026
+== ping entel.bo ==
+ping: entel.bo: No address associated with hostname
+== ping tigo.com.bo ==
+PING tigo.com.bo (52.0.229.131) 56(84) bytes of data.
+
+--- tigo.com.bo ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4132ms
+

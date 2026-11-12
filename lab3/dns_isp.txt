@@ -1,0 +1,17 @@
+Wed Nov 11 01:12:39 AM UTC 2026
+== entel.bo A ==
+== entel.bo NS ==
+entel.bo.		25	IN	NS	ns.entelnet.bo.
+entel.bo.		25	IN	NS	ns2.entelnet.bo.
+== entel.bo MX ==
+entel.bo.		60	IN	MX	0 entel-bo.mail.protection.outlook.com.
+== tigo.com.bo A ==
+tigo.com.bo.		3600	IN	A	52.0.229.131
+== tigo.com.bo NS ==
+tigo.com.bo.		3484	IN	NS	dns2.wimaxtigo.bo.
+tigo.com.bo.		3484	IN	NS	dns1.wimaxtigo.bo.
+== tigo.com.bo MX ==
+tigo.com.bo.		300	IN	MX	10 tigo-com-bo.mail.protection.outlook.com.
+tigo.com.bo.		300	IN	MX	20 webmail2.tigo.com.bo.
+tigo.com.bo.		300	IN	MX	20 inbound-smtp.us-west-2.amazonaws.com.
+tigo.com.bo.		300	IN	MX	0 millicomhq.in.tmes.trendmicro.com.

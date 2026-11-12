@@ -1,0 +1,24 @@
+Wed Nov 11 01:14:33 AM UTC 2026
+== entel.bo A (estado) ==
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 1347
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; AUTHORITY SECTION:
+entel.bo.		60	IN	SOA	ns.entelnet.bo. root.entel.bo. 2016101657 3600 600 604800 10800
+
+== www.entel.bo A ==
+www.entel.bo.		31	IN	A	190.129.60.166
+== ping www.entel.bo ==
+PING www.entel.bo (190.129.60.166) 56(84) bytes of data.
+64 bytes from 190.129.60.166: icmp_seq=1 ttl=64 time=23.5 ms
+64 bytes from 190.129.60.166: icmp_seq=2 ttl=64 time=17.2 ms
+64 bytes from 190.129.60.166: icmp_seq=3 ttl=64 time=109 ms
+64 bytes from 190.129.60.166: icmp_seq=4 ttl=64 time=37.6 ms
+64 bytes from 190.129.60.166: icmp_seq=5 ttl=64 time=16.3 ms
+
+--- www.entel.bo ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4017ms
+rtt min/avg/max/mdev = 16.283/40.777/109.307/35.099 ms

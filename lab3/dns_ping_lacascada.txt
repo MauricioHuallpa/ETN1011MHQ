@@ -1,0 +1,33 @@
+Wed Nov 11 01:27:19 AM UTC 2026
+== lacascada.com.bo A ==
+lacascada.com.bo.	300	IN	A	69.167.179.79
+== lacascada.com.bo NS ==
+lacascada.com.bo.	86400	IN	NS	adele.ns.cloudflare.com.
+lacascada.com.bo.	86400	IN	NS	cesar.ns.cloudflare.com.
+== lacascada.com.bo MX ==
+lacascada.com.bo.	300	IN	MX	0 lacascada-com-bo.mail.protection.outlook.com.
+== www.lacascada.com.bo A ==
+www.lacascada.com.bo.	300	IN	A	104.21.28.182
+www.lacascada.com.bo.	300	IN	A	172.67.147.20
+== ping lacascada.com.bo ==
+PING lacascada.com.bo (69.167.179.79) 56(84) bytes of data.
+64 bytes from host.web-hosting-bolivia.com (69.167.179.79): icmp_seq=1 ttl=64 time=166 ms
+64 bytes from host.web-hosting-bolivia.com (69.167.179.79): icmp_seq=2 ttl=64 time=212 ms
+64 bytes from host.web-hosting-bolivia.com (69.167.179.79): icmp_seq=3 ttl=64 time=148 ms
+64 bytes from host.web-hosting-bolivia.com (69.167.179.79): icmp_seq=4 ttl=64 time=145 ms
+64 bytes from host.web-hosting-bolivia.com (69.167.179.79): icmp_seq=5 ttl=64 time=141 ms
+
+--- lacascada.com.bo ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4049ms
+rtt min/avg/max/mdev = 141.038/162.379/212.242/26.364 ms
+== ping www.lacascada.com.bo ==
+PING www.lacascada.com.bo (172.67.147.20) 56(84) bytes of data.
+64 bytes from 172.67.147.20: icmp_seq=1 ttl=64 time=98.6 ms
+64 bytes from 172.67.147.20: icmp_seq=2 ttl=64 time=189 ms
+64 bytes from 172.67.147.20: icmp_seq=3 ttl=64 time=140 ms
+64 bytes from 172.67.147.20: icmp_seq=4 ttl=64 time=99.5 ms
+64 bytes from 172.67.147.20: icmp_seq=5 ttl=64 time=121 ms
+
+--- www.lacascada.com.bo ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4013ms
+rtt min/avg/max/mdev = 98.576/129.618/189.011/33.360 ms

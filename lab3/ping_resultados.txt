@@ -1,0 +1,20 @@
+Wed Nov 11 01:09:12 AM UTC 2026
+== ping impuestos.bo ==
+ping: impuestos.bo: Name or service not known
+== ping umsa.bo ==
+PING umsa.bo (200.7.161.56) 56(84) bytes of data.
+64 bytes from www.umsa.bo (200.7.161.56): icmp_seq=1 ttl=64 time=58.6 ms
+64 bytes from www.umsa.bo (200.7.161.56): icmp_seq=2 ttl=64 time=141 ms
+64 bytes from www.umsa.bo (200.7.161.56): icmp_seq=3 ttl=64 time=37.7 ms
+64 bytes from www.umsa.bo (200.7.161.56): icmp_seq=4 ttl=64 time=37.8 ms
+64 bytes from www.umsa.bo (200.7.161.56): icmp_seq=5 ttl=64 time=25.7 ms
+
+--- umsa.bo ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4049ms
+rtt min/avg/max/mdev = 25.745/60.151/140.883/41.728 ms
+== ping impuestos.gob.bo ==
+PING impuestos.gob.bo (170.82.244.41) 56(84) bytes of data.
+
+--- impuestos.gob.bo ping statistics ---
+5 packets transmitted, 0 received, 100% packet loss, time 4119ms
+
