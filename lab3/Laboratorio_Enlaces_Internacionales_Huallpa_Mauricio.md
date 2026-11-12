@@ -1,6 +1,7 @@
 # Laboratorio — Enlaces Internacionales de Internet en Bolivia
 
 **Estudiante:** Mauricio Huallpa Quino
+
 **Materia:** ETN1011 — Sistemas de Comunicación 2
 **Fecha de las consultas:** 10 de noviembre de 2026 (hora de Bolivia)
 **Entorno de las mediciones:** VM Ubuntu 26.04 en VirtualBox (red NAT), desde La Paz. Los `dig` y `ping` salen de mi conexión; los resultados pueden cambiar según el resolvedor y la red.
